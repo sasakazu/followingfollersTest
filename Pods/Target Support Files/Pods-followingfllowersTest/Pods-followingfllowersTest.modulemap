@@ -1,0 +1,6 @@
+framework module Pods_followingfllowersTest {
+  umbrella header "Pods-followingfllowersTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

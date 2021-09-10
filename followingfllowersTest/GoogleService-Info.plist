@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>51618705876-4p71qj5oam83nd6vknhrj1vjn4d7hhq7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.51618705876-4p71qj5oam83nd6vknhrj1vjn4d7hhq7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDvMbWbmESHVMv7fDgTFmoK5lYD-rzlRIM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>51618705876</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kazuyasasakura.followingfllowersTest</string>
+	<key>PROJECT_ID</key>
+	<string>followingfollwerstest</string>
+	<key>STORAGE_BUCKET</key>
+	<string>followingfollwerstest.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:51618705876:ios:5b54413e235833eb602641</string>
+</dict>
+</plist>

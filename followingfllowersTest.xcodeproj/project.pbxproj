@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,9 @@
 		73B7215526EB1F5F00D874F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B7215326EB1F5F00D874F7 /* LaunchScreen.storyboard */; };
 		73B7216026EB1F5F00D874F7 /* followingfllowersTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7215F26EB1F5F00D874F7 /* followingfllowersTestTests.swift */; };
 		73B7216B26EB1F5F00D874F7 /* followingfllowersTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7216A26EB1F5F00D874F7 /* followingfllowersTestUITests.swift */; };
+		73B7217926EB250B00D874F7 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7217826EB250B00D874F7 /* signup.swift */; };
+		73B7217B26EB261000D874F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73B7217A26EB261000D874F7 /* GoogleService-Info.plist */; };
+		73B7217D26EB2A1C00D874F7 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7217C26EB2A1C00D874F7 /* login.swift */; };
 		90474F5AF3098BA4BDD90831 /* Pods_followingfllowersTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC91C68128ABD4F1E732AD8A /* Pods_followingfllowersTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		73B7216626EB1F5F00D874F7 /* followingfllowersTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = followingfllowersTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B7216A26EB1F5F00D874F7 /* followingfllowersTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followingfllowersTestUITests.swift; sourceTree = "<group>"; };
 		73B7216C26EB1F5F00D874F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B7217826EB250B00D874F7 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
+		73B7217A26EB261000D874F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		73B7217C26EB2A1C00D874F7 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		910ECDA6428EF6D7BED7FC7C /* Pods-followingfllowersTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followingfllowersTest.release.xcconfig"; path = "Target Support Files/Pods-followingfllowersTest/Pods-followingfllowersTest.release.xcconfig"; sourceTree = "<group>"; };
 		980E1D6F2C34602D027F0829 /* Pods-followingfllowersTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followingfllowersTest.debug.xcconfig"; path = "Target Support Files/Pods-followingfllowersTest/Pods-followingfllowersTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CA627C4F20EBE01C6CE104C2 /* Pods_followingfllowersTest_followingfllowersTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_followingfllowersTest_followingfllowersTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +107,6 @@
 				685807E1494B444BFB65BDF2 /* Pods-followingfllowersTestTests.debug.xcconfig */,
 				43E154D37B1BE1EA673D0118 /* Pods-followingfllowersTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,10 +147,13 @@
 			children = (
 				73B7214826EB1F5D00D874F7 /* AppDelegate.swift */,
 				73B7214A26EB1F5D00D874F7 /* SceneDelegate.swift */,
+				73B7217826EB250B00D874F7 /* signup.swift */,
 				73B7214C26EB1F5D00D874F7 /* ViewController.swift */,
 				73B7214E26EB1F5D00D874F7 /* Main.storyboard */,
 				73B7215126EB1F5F00D874F7 /* Assets.xcassets */,
+				73B7217A26EB261000D874F7 /* GoogleService-Info.plist */,
 				73B7215326EB1F5F00D874F7 /* LaunchScreen.storyboard */,
+				73B7217C26EB2A1C00D874F7 /* login.swift */,
 				73B7215626EB1F5F00D874F7 /* Info.plist */,
 			);
 			path = followingfllowersTest;
@@ -279,6 +287,7 @@
 			files = (
 				73B7215526EB1F5F00D874F7 /* LaunchScreen.storyboard in Resources */,
 				73B7215226EB1F5F00D874F7 /* Assets.xcassets in Resources */,
+				73B7217B26EB261000D874F7 /* GoogleService-Info.plist in Resources */,
 				73B7215026EB1F5D00D874F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +417,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B7214D26EB1F5D00D874F7 /* ViewController.swift in Sources */,
+				73B7217D26EB2A1C00D874F7 /* login.swift in Sources */,
+				73B7217926EB250B00D874F7 /* signup.swift in Sources */,
 				73B7214926EB1F5D00D874F7 /* AppDelegate.swift in Sources */,
 				73B7214B26EB1F5D00D874F7 /* SceneDelegate.swift in Sources */,
 			);

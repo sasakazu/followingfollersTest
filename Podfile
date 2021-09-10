@@ -9,7 +9,7 @@ target 'followingfllowersTest' do
   
   pod 'Firebase'
   pod 'Firebase/Auth'
-  
+  pod 'Firebase/Firestore'
 
   target 'followingfllowersTestTests' do
     inherit! :search_paths

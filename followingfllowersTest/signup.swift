@@ -24,7 +24,21 @@ class signup: UIViewController {
     
     @IBAction func loginBtn(_ sender: Any) {
         Auth.auth().createUser(withEmail: emailTF.text!, password: passTF.text!) { authResult, error in
-          // ...
+          
+            let db = Firestore.firestore()
+            let user = Auth.auth().currentUser
+            
+            let uid = user?.uid
+            
+            db.collection("users").document(uid!).setData([
+                
+                "username": self.emailTF.text!
+            
+            
+            ], merge: true)
+                 
+            
+            
         }
     }
     

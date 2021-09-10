@@ -20,6 +20,9 @@
 		73B7217926EB250B00D874F7 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7217826EB250B00D874F7 /* signup.swift */; };
 		73B7217B26EB261000D874F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73B7217A26EB261000D874F7 /* GoogleService-Info.plist */; };
 		73B7217D26EB2A1C00D874F7 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7217C26EB2A1C00D874F7 /* login.swift */; };
+		73B7217F26EB2DC600D874F7 /* followOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7217E26EB2DC600D874F7 /* followOne.swift */; };
+		73B7218126EB2DEC00D874F7 /* followTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7218026EB2DEC00D874F7 /* followTwo.swift */; };
+		73B7218326EB2E1400D874F7 /* acountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B7218226EB2E1400D874F7 /* acountViewController.swift */; };
 		90474F5AF3098BA4BDD90831 /* Pods_followingfllowersTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC91C68128ABD4F1E732AD8A /* Pods_followingfllowersTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		73B7217826EB250B00D874F7 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
 		73B7217A26EB261000D874F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		73B7217C26EB2A1C00D874F7 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		73B7217E26EB2DC600D874F7 /* followOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followOne.swift; sourceTree = "<group>"; };
+		73B7218026EB2DEC00D874F7 /* followTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followTwo.swift; sourceTree = "<group>"; };
+		73B7218226EB2E1400D874F7 /* acountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acountViewController.swift; sourceTree = "<group>"; };
 		910ECDA6428EF6D7BED7FC7C /* Pods-followingfllowersTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followingfllowersTest.release.xcconfig"; path = "Target Support Files/Pods-followingfllowersTest/Pods-followingfllowersTest.release.xcconfig"; sourceTree = "<group>"; };
 		980E1D6F2C34602D027F0829 /* Pods-followingfllowersTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-followingfllowersTest.debug.xcconfig"; path = "Target Support Files/Pods-followingfllowersTest/Pods-followingfllowersTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CA627C4F20EBE01C6CE104C2 /* Pods_followingfllowersTest_followingfllowersTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_followingfllowersTest_followingfllowersTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,11 +151,14 @@
 		73B7214726EB1F5D00D874F7 /* followingfllowersTest */ = {
 			isa = PBXGroup;
 			children = (
+				73B7217E26EB2DC600D874F7 /* followOne.swift */,
 				73B7214826EB1F5D00D874F7 /* AppDelegate.swift */,
 				73B7214A26EB1F5D00D874F7 /* SceneDelegate.swift */,
 				73B7217826EB250B00D874F7 /* signup.swift */,
 				73B7214C26EB1F5D00D874F7 /* ViewController.swift */,
 				73B7214E26EB1F5D00D874F7 /* Main.storyboard */,
+				73B7218226EB2E1400D874F7 /* acountViewController.swift */,
+				73B7218026EB2DEC00D874F7 /* followTwo.swift */,
 				73B7215126EB1F5F00D874F7 /* Assets.xcassets */,
 				73B7217A26EB261000D874F7 /* GoogleService-Info.plist */,
 				73B7215326EB1F5F00D874F7 /* LaunchScreen.storyboard */,
@@ -416,11 +425,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B7218126EB2DEC00D874F7 /* followTwo.swift in Sources */,
 				73B7214D26EB1F5D00D874F7 /* ViewController.swift in Sources */,
 				73B7217D26EB2A1C00D874F7 /* login.swift in Sources */,
 				73B7217926EB250B00D874F7 /* signup.swift in Sources */,
 				73B7214926EB1F5D00D874F7 /* AppDelegate.swift in Sources */,
 				73B7214B26EB1F5D00D874F7 /* SceneDelegate.swift in Sources */,
+				73B7218326EB2E1400D874F7 /* acountViewController.swift in Sources */,
+				73B7217F26EB2DC600D874F7 /* followOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
